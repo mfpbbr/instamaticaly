@@ -1,4 +1,8 @@
 Instamaticaly::Application.routes.draw do
+  
+  match 'user/:username', :to => 'user#index'
+  match 'session/:action', :to => 'sessions'
+  root :to => "sessions#connect"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
