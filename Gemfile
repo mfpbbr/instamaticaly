@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 
 gem 'instagram', :git => 'git://github.com/Instagram/instagram-ruby-gem.git' 
-#gem 'pg'
-gem 'sqlite3'
+gem 'pg'
+#gem 'sqlite3'
 
 gem 'faraday', '0.7.6'
 
