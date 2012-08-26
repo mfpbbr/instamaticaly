@@ -6,10 +6,18 @@
 
 
 <div class="row-fluid">
- <div class="span12">
-  <% @recent_media_items.each do |media| %>
-  <div style="float:left; background: url('<%= media.images.thumbnail.url %>'); background-repeat:no-repeat; height:150px; width:150px; padding-left:5px; padding-top:5px;"><span class="badge badge-info"><%= media.likes.count %></span></div>
-  <% end %>    
+  <div class="span12">
+    <ul class="polaroids">
+      <% @recent_media_items.each do |media| %>
+        <li class="polaroid">
+          <a href="<%= media.link %>" 
+             title="<%= media.caption.nil? ? 'untitled' : media.caption.text %>">
+            <img src="<%= media.images.standard_resolution.url %>" 
+                 alt="<%= media.caption.nil? ? 'untitled' : media.caption.text %>" />
+          </a>
+        </li>
+      <% end %>
+    </ul>    
  </div>
 </div><!--/row-->
 
