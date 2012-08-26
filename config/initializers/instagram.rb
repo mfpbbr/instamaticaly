@@ -1,8 +1,8 @@
 require "instagram"
 
 Instagram.configure do |config|
-  config.client_id = "a5ec0f0dbc57409aa26e08d47ef4906e"
-  config.client_secret = "d4ef6fd3bae446cf8bbe7cb0a0b992a4"
+  config.client_id = "8ee4c7bff9bd46349f535546db25696c"
+  config.client_secret = "79da2c9b5dc54ea392acc0baa8715d00"
 end
 
-CALLBACK_URL = "http://localhost:3000/session/callback"
+CALLBACK_URL = "http://foononymous.herokuapp.com/session/callback"
