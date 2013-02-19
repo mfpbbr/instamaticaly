@@ -12,4 +12,4 @@ If development of this app continues then there will be work to show the media e
 
 == Check It Out Now
 
-Live Link: http://foononymous.herokuapp.com
+Live Link: http://instamaticaly.herokuapp.com
