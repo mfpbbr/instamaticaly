@@ -1,6 +1,7 @@
 == Instamaticaly: Another Instagram Web Viewer
 
-This app uses the Instagram REST API and the Ruby on Rails Gem to build a simple Instagram web client. Currently the base functionality displays your feed or someone elses. Plans for future development include searching by tag, location or author. If logged in you would also be able to comment, like, and follow others people or their photos. 
+This app uses the Instagram REST API and the Ruby on Rails Gem to build a simple Instagram web client. Currently the base functionality displays your feed or someone elses. Plans for future development include searching by tag, location or author. If logged in you would also be able to comment, like, and follow others people or their photos.
+ 
 If development of this app continues then there will be work to show the media endpoints like what's currently popular. 
 
 
