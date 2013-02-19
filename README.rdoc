@@ -10,3 +10,6 @@ If development of this app continues then there will be work to show the media e
 2. Ensure you have run bundle install/update 
 3. This was created on rails 3.2 and ruby 1.9.3
 
+== Check It Out Noe
+
+http://foononymous.herokuapp.com/
